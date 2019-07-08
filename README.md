@@ -1,2 +1,4 @@
 # 100daysofweb-with-talkpython
-100 days of web with talkpython course
+https://github.com/talkpython/100daysofweb-with-python-course
+
+-==========================================================8<
