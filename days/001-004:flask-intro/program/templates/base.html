@@ -1,0 +1,56 @@
+<!doctipe html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="with=device-width, initial-scale=1">
+        <!-- load MUI -->
+        <link href="//cdn.muicss.com/mui-0.9.42/css/mui.min.css" rel="stylesheet" type="text/css" />
+        <link href="//cdn.muicss.com/mui-0.9.42/extra/mui-colors.min.css" rel="stylesheet" type="text/css" />
+        <link href="static/style.css" rel="stylesheet" type="text/css" />
+        <script src="//cdn.muicss.com/mui-0.9.42/js/mui.min.js"></script>
+    </head>
+    <body>
+        <!-- Tutorial HTML goes here -->
+        <div id="sidebar">
+            <div class="mui--text-light mui--text-display1 mui--aligh-vertical">1ST FLASK ATTEMPT</div>
+        </div>
+        <div id="content" class="mui-container-fluid">
+            <!-- blog post go here -->
+            <div class="mui-row">
+              <div class="mui-col-sm-10 mui-col-sm-offset-1">
+                <div class="mui--text-black-54 mui--text-body2">Cisco Routers</div>
+                <div class="mui-divider"></div>
+                <!-- blog goes here -->
+                <div class="mui--text-dark-secondary mui--text-body1">Cisco Switches</div>
+                <div class="mui-divider"></div>
+                <!-- blog goes here -->
+                <!-- blog goes here -->
+              </div>
+            </div>
+        </div>
+        <hr>
+        <div id="container" class="mui-container">
+            <div class="mui-panel">Popular topic:
+                <h1>DevNet</h1>
+                <button class="mui-btn mui-btn--raised"><a href="/index">Home</a></button>
+                <button class="mui-btn mui-btn--raised"><a href="/100Days">100 Days</a></button>
+            </div>
+        </div>
+        <hr>
+        <div id="block_content">
+            <div class="mui--text-headline">MUI Acquires New Features</div>
+            <div class="mui--text-dark-secondary">By <a href="#">Team MUI</a> 3 days ago</div>
+            <div>
+                sdkjlaksdjlkasdjf ladds aksdlflsdj asdfjalskdfakl sdfklsd jklsdjf ldsfjkljkdls jlkdjfl
+                sd kasdfljasdasdlkfj asdlkfj slsjdflk jsadlkfjasldkfjasl kdsdaklfj laksdjf lksjdflkajs
+                jksdfjlk asjkfljsldkfj alskdfjlsdf dklfas dlkjdsfkljsdfjsdfiefjweifsdkl
+                kdsfjksdfd kfjsadf kjdsf jsldfskdjffjeifj lfdjf jeif jdk.
+            <a href="#">Read more...</a>
+            </div>
+            <div class="mui--color-red-500">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </body>
+</html>
