@@ -1,0 +1,5 @@
+DAYS 89-92
+
+deployed my first web-server on the digital ocean cloud
+
+nginx + uwsgi + pyramid + sqlite + ubuntu
